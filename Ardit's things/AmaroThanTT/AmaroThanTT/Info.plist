@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- Custom URL scheme (replace with your bundle id + scheme) -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <!-- Use a reverse-domain string here (your app bundle id is best) -->
+            <key>CFBundleURLName</key>
+            <string>com.yourcompany.amarothan</string>
+
+            <!-- Role can be Editor / Viewer — Editor is fine for most apps -->
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <!-- Replace "amarothan" with the scheme you actually want to use -->
+                <string>amarothan</string>
+            </array>
+        </dict>
+    </array>
+
+    <!-- Privacy / Permissions -->
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera so you can take photos to attach to posts.</string>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library so you can choose images to upload to posts.</string>
+
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We need permission to save photos you take in the app to your library.</string>
+
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need access to the microphone for recording video or voice messages (if used).</string>
+
+    <!-- NOTE: Only include NSUserTrackingUsageDescription if your app actually uses IDFA / tracking
+         and calls AppTrackingTransparency. If you do, add a clear explanation for reviewers here. -->
+
+    <!-- App Transport Security: keep strict by default -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <!-- Keep arbitrary loads disabled. If you must load insecure (HTTP) resources,
+             add minimal domain exceptions under NSExceptionDomains for only those hosts. -->
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+    </dict>
+
+</dict>
+</plist>

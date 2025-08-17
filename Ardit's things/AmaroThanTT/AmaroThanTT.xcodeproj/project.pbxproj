@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BB6111DF2E26975E00D898F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6111C72E26975C00D898F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6111CE2E26975C00D898F6;
+			remoteInfo = AmaroThanTT;
+		};
+		BB6111E92E26975E00D898F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6111C72E26975C00D898F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6111CE2E26975C00D898F6;
+			remoteInfo = AmaroThanTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB6111CF2E26975C00D898F6 /* AmaroThanTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaroThanTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6111DE2E26975E00D898F6 /* AmaroThanTTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaroThanTTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6111E82E26975E00D898F6 /* AmaroThanTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaroThanTTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BB6111FC2E26B36200D898F6 /* Exceptions for "AmaroThanTT" folder in "AmaroThanTT" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BB6111CE2E26975C00D898F6 /* AmaroThanTT */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BB6111D12E26975C00D898F6 /* AmaroThanTT */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB6111FC2E26B36200D898F6 /* Exceptions for "AmaroThanTT" folder in "AmaroThanTT" target */,
+			);
+			path = AmaroThanTT;
+			sourceTree = "<group>";
+		};
+		BB6111E12E26975E00D898F6 /* AmaroThanTTTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AmaroThanTTTests;
+			sourceTree = "<group>";
+		};
+		BB6111EB2E26975E00D898F6 /* AmaroThanTTUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AmaroThanTTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6111CC2E26975C00D898F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6111DB2E26975E00D898F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6111E52E26975E00D898F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB6111C62E26975C00D898F6 = {
+			isa = PBXGroup;
+			children = (
+				BB6111D12E26975C00D898F6 /* AmaroThanTT */,
+				BB6111E12E26975E00D898F6 /* AmaroThanTTTests */,
+				BB6111EB2E26975E00D898F6 /* AmaroThanTTUITests */,
+				BB6111D02E26975C00D898F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6111D02E26975C00D898F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6111CF2E26975C00D898F6 /* AmaroThanTT.app */,
+				BB6111DE2E26975E00D898F6 /* AmaroThanTTTests.xctest */,
+				BB6111E82E26975E00D898F6 /* AmaroThanTTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6111CE2E26975C00D898F6 /* AmaroThanTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6111F22E26975E00D898F6 /* Build configuration list for PBXNativeTarget "AmaroThanTT" */;
+			buildPhases = (
+				BB6111CB2E26975C00D898F6 /* Sources */,
+				BB6111CC2E26975C00D898F6 /* Frameworks */,
+				BB6111CD2E26975C00D898F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB6111D12E26975C00D898F6 /* AmaroThanTT */,
+			);
+			name = AmaroThanTT;
+			packageProductDependencies = (
+			);
+			productName = AmaroThanTT;
+			productReference = BB6111CF2E26975C00D898F6 /* AmaroThanTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB6111DD2E26975E00D898F6 /* AmaroThanTTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6111F52E26975E00D898F6 /* Build configuration list for PBXNativeTarget "AmaroThanTTTests" */;
+			buildPhases = (
+				BB6111DA2E26975E00D898F6 /* Sources */,
+				BB6111DB2E26975E00D898F6 /* Frameworks */,
+				BB6111DC2E26975E00D898F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6111E02E26975E00D898F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB6111E12E26975E00D898F6 /* AmaroThanTTTests */,
+			);
+			name = AmaroThanTTTests;
+			packageProductDependencies = (
+			);
+			productName = AmaroThanTTTests;
+			productReference = BB6111DE2E26975E00D898F6 /* AmaroThanTTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB6111E72E26975E00D898F6 /* AmaroThanTTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6111F82E26975E00D898F6 /* Build configuration list for PBXNativeTarget "AmaroThanTTUITests" */;
+			buildPhases = (
+				BB6111E42E26975E00D898F6 /* Sources */,
+				BB6111E52E26975E00D898F6 /* Frameworks */,
+				BB6111E62E26975E00D898F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6111EA2E26975E00D898F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB6111EB2E26975E00D898F6 /* AmaroThanTTUITests */,
+			);
+			name = AmaroThanTTUITests;
+			packageProductDependencies = (
+			);
+			productName = AmaroThanTTUITests;
+			productReference = BB6111E82E26975E00D898F6 /* AmaroThanTTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6111C72E26975C00D898F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					BB6111CE2E26975C00D898F6 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					BB6111DD2E26975E00D898F6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = BB6111CE2E26975C00D898F6;
+					};
+					BB6111E72E26975E00D898F6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = BB6111CE2E26975C00D898F6;
+					};
+				};
+			};
+			buildConfigurationList = BB6111CA2E26975C00D898F6 /* Build configuration list for PBXProject "AmaroThanTT" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6111C62E26975C00D898F6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BB6111D02E26975C00D898F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6111CE2E26975C00D898F6 /* AmaroThanTT */,
+				BB6111DD2E26975E00D898F6 /* AmaroThanTTTests */,
+				BB6111E72E26975E00D898F6 /* AmaroThanTTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6111CD2E26975C00D898F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6111DC2E26975E00D898F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6111E62E26975E00D898F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6111CB2E26975C00D898F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6111DA2E26975E00D898F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6111E42E26975E00D898F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB6111E02E26975E00D898F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6111CE2E26975C00D898F6 /* AmaroThanTT */;
+			targetProxy = BB6111DF2E26975E00D898F6 /* PBXContainerItemProxy */;
+		};
+		BB6111EA2E26975E00D898F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6111CE2E26975C00D898F6 /* AmaroThanTT */;
+			targetProxy = BB6111E92E26975E00D898F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB6111F02E26975E00D898F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB6111F12E26975E00D898F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB6111F32E26975E00D898F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmaroThanTT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RomaVision.AmaroThanTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB6111F42E26975E00D898F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmaroThanTT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RomaVision.AmaroThanTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB6111F62E26975E00D898F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RomaVision.AmaroThanTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmaroThanTT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmaroThanTT";
+			};
+			name = Debug;
+		};
+		BB6111F72E26975E00D898F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RomaVision.AmaroThanTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmaroThanTT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmaroThanTT";
+			};
+			name = Release;
+		};
+		BB6111F92E26975E00D898F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RomaVision.AmaroThanTTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmaroThanTT;
+			};
+			name = Debug;
+		};
+		BB6111FA2E26975E00D898F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RomaVision.AmaroThanTTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmaroThanTT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6111CA2E26975C00D898F6 /* Build configuration list for PBXProject "AmaroThanTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6111F02E26975E00D898F6 /* Debug */,
+				BB6111F12E26975E00D898F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6111F22E26975E00D898F6 /* Build configuration list for PBXNativeTarget "AmaroThanTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6111F32E26975E00D898F6 /* Debug */,
+				BB6111F42E26975E00D898F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6111F52E26975E00D898F6 /* Build configuration list for PBXNativeTarget "AmaroThanTTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6111F62E26975E00D898F6 /* Debug */,
+				BB6111F72E26975E00D898F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6111F82E26975E00D898F6 /* Build configuration list for PBXNativeTarget "AmaroThanTTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6111F92E26975E00D898F6 /* Debug */,
+				BB6111FA2E26975E00D898F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6111C72E26975C00D898F6 /* Project object */;
+}

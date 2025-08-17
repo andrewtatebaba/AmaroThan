@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- App Identity -->
+    <key>CFBundleDisplayName</key>
+    <string>Roma Test App</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+
+    <!-- Restrict to Portrait Only -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+
+    <!-- Allow HTTP Loads (dev/local server) -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
+    <!-- Camera / Microphone / Photo Library / Location Usage -->
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera for uploading photos/videos.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need access to your microphone for audio recording.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to select and upload images.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need access to your location for location-based features.</string>
+
+    <!-- Notifications & Background Push -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>remote-notification</string>
+    </array>
+
+    <!-- URL Types (blank entries preserved) -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict/>
+    </array>
+
+</dict>
+</plist>
